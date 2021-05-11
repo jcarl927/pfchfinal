@@ -21,7 +21,7 @@ I created three Python scripts that can be used to analyze the data:
 <li>category_by_borough.py</li>
 	<ul>
 	<li>Using pandas, creates a refined CSV file that can be used to visualize annual filming trends</li>
-	<li>Uses the refined CSV file and pandas to create a dataframe that shows the count of permits for each category of production by borough</li>
+	<li>Uses the refined CSV file and pandas to create a dataframe showing the count of permits for each category of production by borough</li>
 	<li>Uses pandas to export the dataframe to a CSV file for visualization</li>
 	</ul> 
 </ul>
