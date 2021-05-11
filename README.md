@@ -6,15 +6,22 @@ This project uses the NYC Open Data Film Permits dataset about to explore filmin
 
 I created three Python scripts that can be used to analyze the data:
 
-zip_code_count.py 
-	Creates a dictionary showing the total count of film permits by zip code
-	Exports the dictionary to a CSV file for visualization
+<ul><li>zip_code_count.py</li>
+	<ul>
+		<li>Creates a dictionary showing the total count of film permits by zip code</li>
+		<li>Exports the dictionary to a CSV file for visualization</li>
+	</ul>
 
-category_by_zip_code.py
-	Creates a nested dictionary showing the count of film permits for each category of production by zip code
-	Using the pandas module, exports the nested dictionary to a CSV file for visualization
+<li>category_by_zip_code.py</li>
+	<ul>
+		<li>Creates a nested dictionary showing the count of film permits for each category of production by zip code</li>
+		<li>Using the pandas module, exports the nested dictionary to a CSV file for visualization</li>
+	</ul>
 
-category_by_borough.py
-	Using pandas, creates a refined CSV file that can be used to visualize annual filming trends
-	Uses the refined CSV file and pandas to create a dataframe that shows the count of permits for each category of production by borough
-	Uses pandas to export the dataframe to a CSV file for visualization 
+<li>category_by_borough.py</li>
+	<ul>
+	<li>Using pandas, creates a refined CSV file that can be used to visualize annual filming trends</li>
+	<li>Uses the refined CSV file and pandas to create a dataframe that shows the count of permits for each category of production by borough</li>
+	<li>Uses pandas to export the dataframe to a CSV file for visualization</li>
+	</ul> 
+</ul>
