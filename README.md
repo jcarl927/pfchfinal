@@ -9,13 +9,13 @@ I created three Python scripts that can be used to analyze the data:
 <ul><li>zip_code_count.py</li>
 	<ul>
 		<li>Creates a dictionary showing the total count of film permits by zip code</li>
-		<li>Exports the dictionary to a CSV file for visualization</li>
+		<li>Writes the dictionary to a CSV file for visualization</li>
 	</ul>
 
 <li>category_by_zip_code.py</li>
 	<ul>
 		<li>Creates a nested dictionary showing the count of film permits for each category of production by zip code</li>
-		<li>Using the pandas module, exports the nested dictionary to a CSV file for visualization</li>
+		<li>Using the pandas module, writes the nested dictionary to a CSV file for visualization</li>
 	</ul>
 
 <li>category_by_borough.py</li>
